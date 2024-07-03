@@ -1,0 +1,303 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    z-index: 1000;
+  }
+.logo{
+    margin: 2vmin;
+}
+.sectionNames{
+    display: flex;
+    list-style: none;
+    gap: 4vmin;
+    list-style: none;
+    position: absolute;
+    top: 1.5vmin;
+    right: 7vmin;
+    font-weight: 600;
+    padding: 10px;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+}
+.sectionLinks {
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+.sectionLinks:hover{
+    text-decoration: underline;
+    color: blueviolet;
+} 
+.HeroSectiondiv{
+    display: flex;
+    text-align: center;
+    gap: 2vmin;
+    height: 75vh;
+}
+.AppName{
+    margin-bottom: 1vmin;
+    color: rgb(9, 9, 110);
+    font-size: 5rem;
+}
+.subtitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1vmin;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+}
+.getStarted{
+    color: white;
+    background-color: rgb(9, 9, 110);
+    height: 7vmin;
+    padding: 2.5vmin 2vmin 2.5vmin 2vmin;
+    font-size: 2vmin;
+    border-radius: 8vmin;
+}
+.qualitiesOfApp{
+    margin-top: -7vmin;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.Qualitydiv{
+    width: 40vmin;
+    border-radius: 6vmin;
+    padding-top: 1vmin;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.quality{
+    font-size: large;
+    font-weight: 700;
+}
+.RestSite{
+    margin-top: 4vmin;
+    background-color: rgb(9, 9, 110);
+    color: white;
+}
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 4vmin;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 1vmin;
+
+}
+.dropbtn {
+    background-color: rgb(224, 224, 224);
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width:  fit-content;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content p {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1vmin;
+}
+
+.dropdown-content p:hover {
+    background-color: rgb(224, 224, 224);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.AddExpenseForm{
+    display: flex;
+    margin-left: 5vmin;
+    gap: 30vmin;
+    font-size: 2.5vmin;
+}
+.formimageimg{
+    height: 47vmin;
+    width: 100vmin;
+    border-radius: 8vmin;
+}
+label{
+    margin: 1.5vmin;
+}
+input{
+    height: 4vmin;
+    width: 40vmin;
+    border-radius: 8px;
+    border:none;
+    background-color: rgb(224, 224, 224);
+    margin-bottom: 2vmin;
+    margin-left: 1vmin;
+}
+textarea{
+    height: 3vmin;
+    width: 40vmin;
+    border-radius: 8px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    background-color: rgb(224, 224, 224);
+}
+
+.addExpenseBtn{
+    height: 5vmin;
+    width: 15vmin;
+    border-radius: 1vmin;
+    border: 1px solid black;
+}
+.divforbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vmin;
+}
+
+.ExpenseListdiv{
+    height: 70vh;
+}
+.subheadingbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.editbtn{
+    background-color: rgb(9, 9, 110);
+    width:fit-content;
+    height: auto;
+}
+.ExpenseListdiv {
+    padding: 20px;
+  }
+  
+  .expense-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .expense-table th, .expense-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .dropdown-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-menu:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .dropdown-content p:hover {
+    background-color: #ddd;
+  }
+
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 2vmin;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    margin: 4px 0;
+    transition: 0.4s;
+    color: black;
+  }
+  
+  .sectionNames.open {
+    max-height: 200px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .AddExpenseForm{
+      flex-direction: column;
+      flex-flow: column-reverse;
+    }
+    .formimageimg{
+      width: 80vw;
+    }
+    .navbar{
+      
+    }
+    .qualitiesOfApp{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10vmin;
+    }
+    .Qualitydiv{
+      width:fit-content;
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .AppName{
+      font-size: 2.5rem;
+      line-height: calc(2.5rem*1.5);
+    }
+    .subtitle{
+      font-size:1.5rem;
+      line-height: calc(1.5rem*1.5);
+    }
+    .getStarted{
+      height: 5vh;
+      width: 25vw;
+      font-size: 3.5vmin;
+    }
+    .HeroSectiondiv{
+      height: 50vh;
+    }
+  }
+  
